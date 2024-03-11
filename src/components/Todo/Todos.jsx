@@ -76,7 +76,7 @@ const Todos = () => {
             <textarea
               value={text}
               onChange={(e) => setText(e.target.value)}
-              placeholder="write your text"
+              placeholder="Write your text"
               className="w-full h-28 bg-transparent outline-none resize-none text-sm placeholder:italic"
               cols="30"
               rows="2"
@@ -126,6 +126,3 @@ const Todos = () => {
 };
 
 export default Todos;
-
-
-//Test commit

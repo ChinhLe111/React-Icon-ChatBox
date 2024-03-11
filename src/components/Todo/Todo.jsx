@@ -6,7 +6,7 @@ import {
   AiOutlineCheckCircle,
 } from "react-icons/ai";
 import { FaTimes } from "react-icons/fa";
-import Layer from "./Layer";
+import Layer from "../Layer";
 
 const Todo = ({ todoList, setTodoList, setEditTodo }) => {
   const [showText, setShowText] = useState(false);
