@@ -6,6 +6,7 @@ import Picker from "@emoji-mart/react";
 import Todo from "./Todo";
 import { MdAutoFixHigh } from "react-icons/md";
 
+
 const Todos = () => {
   const [showEmoji, setShowEmoji] = useState(false);
   const [text, setText] = useState("");
@@ -13,7 +14,6 @@ const Todos = () => {
     JSON.parse(localStorage.getItem("todo")) || []
   );
   const [editTodo, setEditTodo] = useState(null);
-
   // add emoji
   const addEmoji = (e) => {
     const sym = e.unified.split("_");
@@ -65,6 +65,7 @@ const Todos = () => {
   };
 
   return (
+  
     <div className="pt-3 w-[90%] sm:w-[50%] mx-auto">
       <h1 className="text-6xl font-medium text-center capitalize">
         REACT TEST
