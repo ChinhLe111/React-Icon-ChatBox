@@ -38,7 +38,7 @@ const Login = () => {
                     </div>
                     <button className="w-full h-[45px] cursor-pointer shadow-[0_0_10px_rgba(0,0,0,1)] text-base font-bold text-[#333] rounded-[50px] border-[none] bg-white outline-none hover:text-[white] hover:bg-pink-300" type="button" onClick={submit}>LOGIN</button>
                     <div className="text-[14.5px] text-center mt-5">
-                        <p>Dont't have an account? <a className="text-[white] no-underline font-semibold hover:underline" href=''> Register</a></p>
+                        <p>Dont't have an account? <a className="text-[white] no-underline font-semibold hover:underline" href="signup"> Register</a></p>
                     </div>
                 </form>
             </div>
