@@ -12,10 +12,6 @@ body {
   /* @apply bg-gradient-to-r from-slate-700 to-white; */
   min-height: 100vh;
   user-select: none;
-  background: url('./components/Assets/background.jpg')
-  no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 #todos {
