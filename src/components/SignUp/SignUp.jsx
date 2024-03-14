@@ -28,14 +28,14 @@ const SignUp = () => {
           <div className="relative w-full h-[50px] mx-0 my-[30px]">
             <input className="w-full h-full pl-5 pr-[45px] py-5 rounded-[40px] border-2 border-solid border-[rgba(255,255,255,0.2)] bg-transparent outline-none placeholder:text-[white]" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' required />
             <FaLock className="absolute -translate-y-2/4 text-base right-5 top-2/4" />
-          </div>
+          </div> 
           <div className="relative w-full h-[50px] mx-0 my-[30px]">
             <input className="w-full h-full pl-5 pr-[45px] py-5 rounded-[40px] border-2 border-solid border-[rgba(255,255,255,0.2)] bg-transparent outline-none placeholder:text-[white]" type="password" value={confirm_password} onChange={(e) => setConfirm_Password(e.target.value)} placeholder='Comfirm password' required />
             <FaEye className="absolute -translate-y-2/4 text-base right-5 top-2/4" />
           </div>
           <button className="w-full h-[45px] cursor-pointer shadow-[0_0_10px_rgba(0,0,0,1)] text-base font-bold text-[#333] rounded-[50px] border-[none] bg-white outline-none hover:text-[white] hover:bg-pink-300" type="button" onClick={signUp}>SIGN UP</button>
           <div className="text-[14.5px] text-center mt-5">
-            <p>Have an account? <a className="text-[white] no-underline font-semibold hover:underline" href="" onClick={goToLogin}> Login</a></p>
+            <p>Have an account? <a className="text-[white] no-underline font-semibold hover:underline" href="/"> Login</a></p>
           </div>
         </form>
       </div>
